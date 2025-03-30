@@ -43,14 +43,14 @@ export default function LandingPage() {
                   <h1 className="text-3xl font-bold tracking-tighter text-blue-600 sm:text-5xl xl:text-6xl/none">
                     ElectroDUO
                   </h1>
-                  <p className="text-xl text-yellow-600 font-semibold">Powering Your World, One Connection at a Time</p>
+                  <p className="text-xl text-yellow-600 font-semibold">Impulsando tu mundo, una conexión a la vez</p>
                   <p className="max-w-[600px] text-muted-foreground md:text-xl">
                     Soluciones eléctricas profesionales para proyectos residenciales, industriales y de construcción. Con años de experiencia, ofrecemos instalaciones eléctricas confiables y seguras.
                   </p>
                 </div>
                 <div className="flex flex-col gap-2 min-[400px]:flex-row">
                   <Link href="#contact">
-                    <Button className="bg-blue-600 hover:bg-blue-700">Contact Us</Button>
+                    <Button className="bg-blue-600 hover:bg-blue-700">Contáctanos</Button>
                   </Link>
                   <Link href="#services">
                     <Button variant="outline" className="border-blue-600 text-blue-600 hover:bg-blue-50">
@@ -170,8 +170,8 @@ export default function LandingPage() {
                   className="aspect-video object-cover w-full"
                 />
                 <div className="p-4">
-                  <h3 className="text-lg font-bold text-blue-600">Residential Rewiring</h3>
-                  <p className="text-sm text-muted-foreground">Complete electrical system upgrade for a family home</p>
+                  <h3 className="text-lg font-bold text-blue-600">Recableado residencial</h3>
+                  <p className="text-sm text-muted-foreground">Actualización completa del sistema eléctrico de una casa familiar.</p>
                 </div>
               </div>
               <div className="overflow-hidden rounded-lg border bg-white shadow-sm">
@@ -183,8 +183,8 @@ export default function LandingPage() {
                   className="aspect-video object-cover w-full"
                 />
                 <div className="p-4">
-                  <h3 className="text-lg font-bold text-blue-600">Commercial Installation</h3>
-                  <p className="text-sm text-muted-foreground">Electrical setup for a new office building</p>
+                  <h3 className="text-lg font-bold text-blue-600">Instalacion Comercial</h3>
+                  <p className="text-sm text-muted-foreground">Instalación eléctrica para un nuevo edificio de oficinas.</p>
                 </div>
               </div>
               <div className="overflow-hidden rounded-lg border bg-white shadow-sm">
@@ -196,9 +196,9 @@ export default function LandingPage() {
                   className="aspect-video object-cover w-full"
                 />
                 <div className="p-4">
-                  <h3 className="text-lg font-bold text-blue-600">Industrial Power System</h3>
+                  <h3 className="text-lg font-bold text-blue-600">Sistema de energía industrial</h3>
                   <p className="text-sm text-muted-foreground">
-                    High-capacity electrical installation for a manufacturing plant
+                    Instalación eléctrica de alta capacidad para una planta de fabricación.
                   </p>
                 </div>
               </div>
@@ -211,10 +211,10 @@ export default function LandingPage() {
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
                 <h2 className="text-3xl font-bold tracking-tighter text-blue-600 sm:text-4xl md:text-5xl">
-                  Other Projects
+                  Otros Projectos
                 </h2>
                 <p className="max-w-[900px] text-muted-foreground md:text-xl">
-                  Explore more of our diverse electrical installation portfolio
+                  Explore más de nuestra diversa cartera de instalaciones eléctricas.
                 </p>
               </div>
             </div>
@@ -228,8 +228,8 @@ export default function LandingPage() {
                   className="aspect-video object-cover w-full"
                 />
                 <div className="p-4">
-                  <h3 className="text-lg font-bold text-blue-600">Smart Home Integration</h3>
-                  <p className="text-sm text-muted-foreground">Modern electrical system with smart home capabilities</p>
+                  <h3 className="text-lg font-bold text-blue-600">Integración de casas inteligentes</h3>
+                  <p className="text-sm text-muted-foreground">Sistema eléctrico moderno con capacidades de hogar inteligente.</p>
                 </div>
               </div>
               <div className="overflow-hidden rounded-lg border bg-white shadow-sm">
@@ -241,9 +241,9 @@ export default function LandingPage() {
                   className="aspect-video object-cover w-full"
                 />
                 <div className="p-4">
-                  <h3 className="text-lg font-bold text-blue-600">Emergency Backup System</h3>
+                  <h3 className="text-lg font-bold text-blue-600">Sistema de respaldo de emergencia</h3>
                   <p className="text-sm text-muted-foreground">
-                    Reliable backup power installation for critical infrastructure
+                    Instalación de energía de respaldo confiable para infraestructura crítica.
                   </p>
                 </div>
               </div>
@@ -256,8 +256,8 @@ export default function LandingPage() {
                   className="aspect-video object-cover w-full"
                 />
                 <div className="p-4">
-                  <h3 className="text-lg font-bold text-blue-600">Lighting Design</h3>
-                  <p className="text-sm text-muted-foreground">Custom lighting solutions for commercial spaces</p>
+                  <h3 className="text-lg font-bold text-blue-600">Diseño de iluminación</h3>
+                  <p className="text-sm text-muted-foreground">Soluciones de iluminación personalizadas para espacios comerciales.</p>
                 </div>
               </div>
             </div>
@@ -270,10 +270,10 @@ export default function LandingPage() {
               <div className="flex flex-col justify-center space-y-4">
                 <div className="space-y-2">
                   <h2 className="text-3xl font-bold tracking-tighter text-blue-600 sm:text-4xl md:text-5xl">
-                    Contact Us
+                    Contáctanos
                   </h2>
                   <p className="text-muted-foreground md:text-xl">
-                    Get in touch with our team for a free consultation and quote
+                    Póngase en contacto con nuestro equipo para obtener una consulta y cotización gratuitas.
                   </p>
                 </div>
                 <div className="space-y-4">
@@ -287,7 +287,7 @@ export default function LandingPage() {
                   </div>
                   <div className="flex items-center gap-2">
                     <MapPin className="h-5 w-5 text-blue-600" />
-                    <span>123 Electric Avenue, Buenos Aires, Argentina</span>
+                    <span>Ruta 5 km 107, Villa del Dique, Cordoba, Argentina</span>
                   </div>
                 </div>
                 <div className="flex gap-4">
@@ -304,7 +304,7 @@ export default function LandingPage() {
               </div>
               <div className="space-y-4">
                 <div className="rounded-lg border bg-card p-6 shadow-sm">
-                  <h3 className="text-xl font-bold text-blue-600 mb-4">Send us a message</h3>
+                  <h3 className="text-xl font-bold text-blue-600 mb-4">Envie su mensaje</h3>
                   <ContactForm />
                 </div>
               </div>
@@ -321,11 +321,11 @@ export default function LandingPage() {
                 <span className="text-xl font-bold">ElectroDUO</span>
               </div>
               <p className="text-sm">
-                Professional electrical solutions for residential, industrial, and construction projects.
+                Soluciones eléctricas profesionales para proyectos residenciales, industriales y de construcción.
               </p>
             </div>
             <div className="space-y-4">
-              <h3 className="text-lg font-bold">Contact</h3>
+              <h3 className="text-lg font-bold">Contacto</h3>
               <div className="space-y-2 text-sm">
                 <div className="flex items-center gap-2">
                   <Phone className="h-4 w-4" />
@@ -337,12 +337,12 @@ export default function LandingPage() {
                 </div>
                 <div className="flex items-center gap-2">
                   <MapPin className="h-4 w-4" />
-                  <span>123 Electric Avenue, Buenos Aires, Argentina</span>
+                  <span>Ruta 5 km 107, Villa del Dique, Cordoba, Argentina</span>
                 </div>
               </div>
             </div>
             <div className="space-y-4">
-              <h3 className="text-lg font-bold">Follow Us</h3>
+              <h3 className="text-lg font-bold">Seguinos</h3>
               <div className="flex gap-4">
                 <Link href="https://facebook.com" target="_blank" rel="noopener noreferrer">
                   <Facebook className="h-5 w-5 hover:text-yellow-500" />
