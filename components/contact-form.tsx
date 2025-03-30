@@ -54,25 +54,25 @@ export default function ContactForm() {
     <form onSubmit={handleSubmit} className="space-y-4">
       <div className="grid grid-cols-2 gap-4">
         <div className="space-y-2">
-          <Label htmlFor="firstName">First Name</Label>
+          <Label htmlFor="firstName">Nombre</Label>
           <Input
             id="firstName"
             name="firstName"
             value={formData.firstName}
             onChange={handleChange}
             required
-            placeholder="John"
+            placeholder="Braian"
           />
         </div>
         <div className="space-y-2">
-          <Label htmlFor="lastName">Last Name</Label>
+          <Label htmlFor="lastName">Apellido</Label>
           <Input
             id="lastName"
             name="lastName"
             value={formData.lastName}
             onChange={handleChange}
             required
-            placeholder="Doe"
+            placeholder="Ifran"
           />
         </div>
       </div>
@@ -84,7 +84,7 @@ export default function ContactForm() {
           value={formData.whatsapp}
           onChange={handleChange}
           required
-          placeholder="+1234567890"
+          placeholder="+5491163604558"
           type="tel"
         />
       </div>
@@ -96,24 +96,24 @@ export default function ContactForm() {
           value={formData.email}
           onChange={handleChange}
           required
-          placeholder="john.doe@example.com"
+          placeholder="braian.ifran@example.com"
           type="email"
         />
       </div>
       <div className="space-y-2">
-        <Label htmlFor="message">Message</Label>
+        <Label htmlFor="message">Mensaje</Label>
         <Textarea
           id="message"
           name="message"
           value={formData.message}
           onChange={handleChange}
           required
-          placeholder="How can we help you?"
+          placeholder="Como podemos ayudarte?"
           rows={4}
         />
       </div>
       <Button type="submit" className="w-full bg-blue-600 hover:bg-blue-700">
-        Send Message
+        Enviar Mensaje 
       </Button>
     </form>
   )
