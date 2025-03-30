@@ -211,7 +211,7 @@ export default function LandingPage() {
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
                 <h2 className="text-3xl font-bold tracking-tighter text-blue-600 sm:text-4xl md:text-5xl">
-                  Otros Projectos
+                  Otros Proyectos
                 </h2>
                 <p className="max-w-[900px] text-muted-foreground md:text-xl">
                   Explore más de nuestra diversa cartera de instalaciones eléctricas.
