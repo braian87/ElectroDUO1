@@ -61,7 +61,7 @@ export default function LandingPage() {
               </div>
               <div className="flex items-center justify-center">
                 <Image
-                  src="/placeholder.svg?height=400&width=400"
+                  src="/1.jpg?height=400&width=400"
                   width={400}
                   height={400}
                   alt="ElectroDUO Electrical Services"
