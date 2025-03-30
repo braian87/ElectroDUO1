@@ -121,7 +121,7 @@ export default function LandingPage() {
             <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 xl:grid-cols-2">
               <div className="flex items-center justify-center">
                 <Image
-                  src="/placeholder.svg?height=400&width=400"
+                  src="/2.jpg?height=400&width=400"
                   width={400}
                   height={400}
                   alt="About ElectroDUO"
@@ -163,7 +163,7 @@ export default function LandingPage() {
             <div className="grid grid-cols-1 gap-6 mt-8 md:grid-cols-3 md:gap-8">
               <div className="overflow-hidden rounded-lg border bg-white shadow-sm">
                 <Image
-                  src="/placeholder.svg?height=300&width=500"
+                  src="/3.jpg?height=300&width=500"
                   width={500}
                   height={300}
                   alt="Completed Project 1"
@@ -176,7 +176,7 @@ export default function LandingPage() {
               </div>
               <div className="overflow-hidden rounded-lg border bg-white shadow-sm">
                 <Image
-                  src="/placeholder.svg?height=300&width=500"
+                  src="/4.jpg?height=300&width=500"
                   width={500}
                   height={300}
                   alt="Completed Project 2"
@@ -189,7 +189,7 @@ export default function LandingPage() {
               </div>
               <div className="overflow-hidden rounded-lg border bg-white shadow-sm">
                 <Image
-                  src="/placeholder.svg?height=300&width=500"
+                  src="/5.jpg?height=300&width=500"
                   width={500}
                   height={300}
                   alt="Completed Project 3"
@@ -221,7 +221,7 @@ export default function LandingPage() {
             <div className="grid grid-cols-1 gap-6 mt-8 md:grid-cols-3 md:gap-8">
               <div className="overflow-hidden rounded-lg border bg-white shadow-sm">
                 <Image
-                  src="/placeholder.svg?height=300&width=500"
+                  src="/6.jpg?height=300&width=500"
                   width={500}
                   height={300}
                   alt="Other Project 1"
@@ -234,7 +234,7 @@ export default function LandingPage() {
               </div>
               <div className="overflow-hidden rounded-lg border bg-white shadow-sm">
                 <Image
-                  src="/placeholder.svg?height=300&width=500"
+                  src="/7.jpg?height=300&width=500"
                   width={500}
                   height={300}
                   alt="Other Project 2"
@@ -249,7 +249,7 @@ export default function LandingPage() {
               </div>
               <div className="overflow-hidden rounded-lg border bg-white shadow-sm">
                 <Image
-                  src="/placeholder.svg?height=300&width=500"
+                  src="/8.jpg?height=300&width=500"
                   width={500}
                   height={300}
                   alt="Other Project 3"
