@@ -16,19 +16,19 @@ export default function LandingPage() {
           </div>
           <nav className="hidden md:flex gap-6">
             <Link href="#home" className="text-sm font-medium text-blue-600 hover:text-blue-800">
-              Home
+              Inicio
             </Link>
             <Link href="#services" className="text-sm font-medium text-muted-foreground hover:text-blue-600">
-              Services
+              Servicio
             </Link>
             <Link href="#about" className="text-sm font-medium text-muted-foreground hover:text-blue-600">
-              About Us
+              Sobre Nosotros
             </Link>
             <Link href="#projects" className="text-sm font-medium text-muted-foreground hover:text-blue-600">
-              Projects
+              Projectos
             </Link>
             <Link href="#contact" className="text-sm font-medium text-muted-foreground hover:text-blue-600">
-              Contact
+              Contacto
             </Link>
           </nav>
           <MobileNav />
@@ -45,8 +45,7 @@ export default function LandingPage() {
                   </h1>
                   <p className="text-xl text-yellow-600 font-semibold">Powering Your World, One Connection at a Time</p>
                   <p className="max-w-[600px] text-muted-foreground md:text-xl">
-                    Professional electrical solutions for residential, industrial, and construction projects. With years
-                    of experience, we deliver reliable and safe electrical installations.
+                    Soluciones eléctricas profesionales para proyectos residenciales, industriales y de construcción. Con años de experiencia, ofrecemos instalaciones eléctricas confiables y seguras.
                   </p>
                 </div>
                 <div className="flex flex-col gap-2 min-[400px]:flex-row">
@@ -55,7 +54,7 @@ export default function LandingPage() {
                   </Link>
                   <Link href="#services">
                     <Button variant="outline" className="border-blue-600 text-blue-600 hover:bg-blue-50">
-                      Our Services
+                      Nuestros Servicios
                     </Button>
                   </Link>
                 </div>
@@ -78,10 +77,10 @@ export default function LandingPage() {
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
                 <h2 className="text-3xl font-bold tracking-tighter text-blue-600 sm:text-4xl md:text-5xl">
-                  Our Services
+                  Nuestros Servicios
                 </h2>
                 <p className="max-w-[900px] text-muted-foreground md:text-xl">
-                  We provide comprehensive electrical solutions tailored to your specific needs
+                  Ofrecemos soluciones eléctricas integrales adaptadas a sus necesidades específicas.
                 </p>
               </div>
             </div>
@@ -90,28 +89,27 @@ export default function LandingPage() {
                 <div className="p-3 rounded-full bg-blue-100">
                   <Zap className="h-6 w-6 text-blue-600" />
                 </div>
-                <h3 className="text-xl font-bold text-blue-600">Electrical Installations</h3>
+                <h3 className="text-xl font-bold text-blue-600">Instalaciones Electricas</h3>
                 <p className="text-muted-foreground text-center">
-                  Complete electrical system installations with the highest quality standards and safety measures.
+                  Instalaciones completas de sistemas eléctricos con los más altos estándares de calidad y medidas de seguridad.
                 </p>
               </div>
               <div className="flex flex-col items-center space-y-2 border rounded-lg p-6 bg-white shadow-sm">
                 <div className="p-3 rounded-full bg-blue-100">
                   <Zap className="h-6 w-6 text-blue-600" />
                 </div>
-                <h3 className="text-xl font-bold text-blue-600">Residential Installations</h3>
+                <h3 className="text-xl font-bold text-blue-600">Instalaciones Domiciliarias</h3>
                 <p className="text-muted-foreground text-center">
-                  Specialized electrical solutions for homes, ensuring safety and efficiency for your family.
+                  Soluciones eléctricas especializadas para el hogar, garantizando seguridad y eficiencia para tu familia.
                 </p>
               </div>
               <div className="flex flex-col items-center space-y-2 border rounded-lg p-6 bg-white shadow-sm">
                 <div className="p-3 rounded-full bg-blue-100">
                   <Zap className="h-6 w-6 text-blue-600" />
                 </div>
-                <h3 className="text-xl font-bold text-blue-600">Industrial Installations</h3>
+                <h3 className="text-xl font-bold text-blue-600">Instalaciones Industriales</h3>
                 <p className="text-muted-foreground text-center">
-                  Robust electrical systems for industrial facilities, designed to handle heavy loads and ensure
-                  operational continuity.
+                  Sistemas eléctricos robustos para instalaciones industriales, diseñados para soportar cargas pesadas y garantizar la continuidad operativa.
                 </p>
               </div>
             </div>
@@ -133,19 +131,16 @@ export default function LandingPage() {
               <div className="flex flex-col justify-center space-y-4">
                 <div className="space-y-2">
                   <h2 className="text-3xl font-bold tracking-tighter text-blue-600 sm:text-4xl md:text-5xl">
-                    About Us
+                    Sobre Nosotros
                   </h2>
                   <p className="text-muted-foreground md:text-xl">
-                    ElectroDUO is a professional electrical company with years of experience in the industry. We
-                    specialize in residential, industrial, and construction electrical installations.
+                    ElectroDUO es una empresa eléctrica profesional con años de experiencia en el sector. Nos especializamos en instalaciones eléctricas residenciales, industriales y de construcción.
                   </p>
                   <p className="text-muted-foreground md:text-xl">
-                    Our team of certified electricians is committed to providing high-quality services, ensuring that
-                    all installations meet safety standards and regulations.
+                    Nuestro equipo de electricistas certificados se compromete a brindar servicios de alta calidad, garantizando que todas las instalaciones cumplan con las normas y regulaciones de seguridad.
                   </p>
                   <p className="text-muted-foreground md:text-xl">
-                    We pride ourselves on our attention to detail, reliability, and customer satisfaction. Our goal is
-                    to exceed your expectations and deliver electrical solutions that stand the test of time.
+                    Nos enorgullecemos de nuestra atención al detalle, confiabilidad y satisfacción del cliente. Nuestro objetivo es superar sus expectativas y ofrecer soluciones eléctricas que perduren en el tiempo.
                   </p>
                 </div>
               </div>
@@ -158,10 +153,10 @@ export default function LandingPage() {
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
                 <h2 className="text-3xl font-bold tracking-tighter text-blue-600 sm:text-4xl md:text-5xl">
-                  Completed Projects
+                  Proyectos Completados
                 </h2>
                 <p className="max-w-[900px] text-muted-foreground md:text-xl">
-                  Take a look at some of our recent successful electrical installations
+                  Eche un vistazo a algunas de nuestras recientes instalaciones eléctricas exitosas.
                 </p>
               </div>
             </div>
