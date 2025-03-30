@@ -32,35 +32,35 @@ export function MobileNav() {
             className="block px-4 py-2 text-white hover:text-yellow-500 hover:bg-blue-700"
             onClick={closeMenu}
           >
-            Home
+            Inicio 
           </Link>
           <Link
             href="#services"
             className="block px-4 py-2 text-white hover:text-yellow-500 hover:bg-blue-700"
             onClick={closeMenu}
           >
-            Services
+            Servicios 
           </Link>
           <Link
             href="#about"
             className="block px-4 py-2 text-white hover:text-yellow-500 hover:bg-blue-700"
             onClick={closeMenu}
           >
-            About Us
+            Sobre Nosotros 
           </Link>
           <Link
             href="#projects"
             className="block px-4 py-2 text-white hover:text-yellow-500 hover:bg-blue-700"
             onClick={closeMenu}
           >
-            Projects
+            Proyectos 
           </Link>
           <Link
             href="#contact"
             className="block px-4 py-2 text-white hover:text-yellow-500 hover:bg-blue-700"
             onClick={closeMenu}
           >
-            Contact
+            Contacto 
           </Link>
         </div>
       )}
