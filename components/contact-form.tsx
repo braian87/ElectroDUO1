@@ -61,7 +61,7 @@ export default function ContactForm() {
             value={formData.firstName}
             onChange={handleChange}
             required
-            placeholder="Braian"
+            placeholder="Tu nombre"
           />
         </div>
         <div className="space-y-2">
@@ -72,7 +72,7 @@ export default function ContactForm() {
             value={formData.lastName}
             onChange={handleChange}
             required
-            placeholder="Ifran"
+            placeholder="Tu apellido"
           />
         </div>
       </div>
@@ -84,7 +84,7 @@ export default function ContactForm() {
           value={formData.whatsapp}
           onChange={handleChange}
           required
-          placeholder="+5491163604558"
+          placeholder="Tu numero de WhatsApp"
           type="tel"
         />
       </div>
@@ -96,7 +96,7 @@ export default function ContactForm() {
           value={formData.email}
           onChange={handleChange}
           required
-          placeholder="braian.ifran@example.com"
+          placeholder="ejemplo@example.com"
           type="email"
         />
       </div>
