@@ -297,9 +297,7 @@ export default function LandingPage() {
                   <Link href="https://instagram.com" target="_blank" rel="noopener noreferrer">
                     <Instagram className="h-6 w-6 text-blue-600 hover:text-blue-800" />
                   </Link>
-                  <Link href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
-                    <Linkedin className="h-6 w-6 text-blue-600 hover:text-blue-800" />
-                  </Link>
+                  
                 </div>
               </div>
               <div className="space-y-4">
@@ -318,7 +316,7 @@ export default function LandingPage() {
             <div className="space-y-4">
               <div className="flex items-center gap-2">
                 <Zap className="h-6 w-6 text-yellow-500" />
-                <span className="text-xl font-bold">ElectroDUO</span>
+                <span className="text-xl font-bold">Electricidad Villa del Dique</span>
               </div>
               <p className="text-sm">
                 Soluciones eléctricas profesionales para proyectos residenciales, industriales y de construcción.
@@ -350,9 +348,7 @@ export default function LandingPage() {
                 <Link href="https://instagram.com" target="_blank" rel="noopener noreferrer">
                   <Instagram className="h-5 w-5 hover:text-yellow-500" />
                 </Link>
-                <Link href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
-                  <Linkedin className="h-5 w-5 hover:text-yellow-500" />
-                </Link>
+                
               </div>
             </div>
           </div>
