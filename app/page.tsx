@@ -41,7 +41,7 @@ export default function LandingPage() {
               <div className="flex flex-col justify-center space-y-4">
                 <div className="space-y-2">
                   <h1 className="text-3xl font-bold tracking-tighter text-blue-600 sm:text-5xl xl:text-6xl/none">
-                    ElectroDUO
+                    Electricidad Villa del Dique
                   </h1>
                   <p className="text-xl text-yellow-600 font-semibold">Impulsando tu mundo, una conexión a la vez</p>
                   <p className="max-w-[600px] text-muted-foreground md:text-xl">
@@ -64,7 +64,7 @@ export default function LandingPage() {
                   src="/1.jpg?height=400&width=400"
                   width={400}
                   height={400}
-                  alt="ElectroDUO Electrical Services"
+                  alt="Electricidad Villa del Dique Electrical Services"
                   className="rounded-lg object-cover"
                 />
               </div>
@@ -124,7 +124,7 @@ export default function LandingPage() {
                   src="/2.jpg?height=400&width=400"
                   width={400}
                   height={400}
-                  alt="About ElectroDUO"
+                  alt="About Electricidad Villa del Dique"
                   className="rounded-lg object-cover"
                 />
               </div>
@@ -134,7 +134,7 @@ export default function LandingPage() {
                     Sobre Nosotros
                   </h2>
                   <p className="text-muted-foreground md:text-xl">
-                    ElectroDUO es una empresa eléctrica profesional con años de experiencia en el sector. Nos especializamos en instalaciones eléctricas residenciales, industriales y de construcción.
+                    Electricidad Villa del Dique es una empresa eléctrica profesional con años de experiencia en el sector. Nos especializamos en instalaciones eléctricas residenciales, industriales y de construcción.
                   </p>
                   <p className="text-muted-foreground md:text-xl">
                     Nuestro equipo de electricistas certificados se compromete a brindar servicios de alta calidad, garantizando que todas las instalaciones cumplan con las normas y regulaciones de seguridad.
@@ -279,15 +279,15 @@ export default function LandingPage() {
                 <div className="space-y-4">
                   <div className="flex items-center gap-2">
                     <Phone className="h-5 w-5 text-blue-600" />
-                    <span>+54 9 11 6360-4558</span>
+                    <span>+54 9 3546 6666-5555</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <Mail className="h-5 w-5 text-blue-600" />
-                    <span>info@electroduo.com</span>
+                    <span>info@electricidadvilladeldique.com</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <MapPin className="h-5 w-5 text-blue-600" />
-                    <span>Ruta 5 km 107, Villa del Dique, Cordoba, Argentina</span>
+                    <span>Ruta 5 km 103, Villa del Dique, Cordoba, Argentina</span>
                   </div>
                 </div>
                 <div className="flex gap-4">
@@ -296,9 +296,6 @@ export default function LandingPage() {
                   </Link>
                   <Link href="https://instagram.com" target="_blank" rel="noopener noreferrer">
                     <Instagram className="h-6 w-6 text-blue-600 hover:text-blue-800" />
-                  </Link>
-                  <Link href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
-                    <Linkedin className="h-6 w-6 text-blue-600 hover:text-blue-800" />
                   </Link>
                 </div>
               </div>
@@ -329,15 +326,15 @@ export default function LandingPage() {
               <div className="space-y-2 text-sm">
                 <div className="flex items-center gap-2">
                   <Phone className="h-4 w-4" />
-                  <span>+54 9 11 6360-4558</span>
+                  <span>+54 9 3546 6666-5555</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <Mail className="h-4 w-4" />
-                  <span>info@electroduo.com</span>
+                  <span>info@electricidadvilladeldique.com</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <MapPin className="h-4 w-4" />
-                  <span>Ruta 5 km 107, Villa del Dique, Cordoba, Argentina</span>
+                  <span>Ruta 5 km 103, Villa del Dique, Cordoba, Argentina</span>
                 </div>
               </div>
             </div>
@@ -349,15 +346,11 @@ export default function LandingPage() {
                 </Link>
                 <Link href="https://instagram.com" target="_blank" rel="noopener noreferrer">
                   <Instagram className="h-5 w-5 hover:text-yellow-500" />
-                </Link>
-                <Link href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
-                  <Linkedin className="h-5 w-5 hover:text-yellow-500" />
-                </Link>
               </div>
             </div>
           </div>
           <div className="mt-6 border-t border-blue-500 pt-6 text-center text-sm">
-            <p>© {new Date().getFullYear()} ElectroDUO. All rights reserved.</p>
+            <p>© {new Date().getFullYear()} Electricidad Villa del Dique. All rights reserved.</p>
           </div>
         </div>
       </footer>
